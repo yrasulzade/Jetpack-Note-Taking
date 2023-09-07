@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jetpack Note Taking</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="title">Title</string>
+    <string name="type_something">Type something…</string>
+    <string name="create_note">Create your first note!</string>
+    <string name="search_result_not_found">Couldn\'t find any note with given query!</string>
+    <string name="add">Add</string>
+    <string name="search">Search</string>
+    <string name="save_changes">Save changes</string>
+
+    <string name="cd_cancel">Search</string>
+    <string name="cd_info">Info</string>
+</resources>
