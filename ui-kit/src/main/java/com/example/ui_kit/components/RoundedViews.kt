@@ -1,4 +1,4 @@
-package com.example.jetpacknotetaking.ui_kit
+package com.example.ui_kit.components
 
 import androidx.annotation.DrawableRes
 import androidx.compose.material3.Icon

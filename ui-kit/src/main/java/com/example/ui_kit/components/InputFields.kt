@@ -1,4 +1,4 @@
-package com.example.jetpacknotetaking.ui_kit
+package com.example.ui_kit.components
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.TextUnit
-import com.example.jetpacknotetaking.ui.theme.Color25
+import com.example.ui_kit.theme.Color25
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

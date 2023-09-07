@@ -19,7 +19,7 @@ package com.example.jetpacknotetaking.navigation
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.navigation.compose.rememberNavController
-import com.example.jetpacknotetaking.ui.theme.JetpackNoteTakingTheme
+import com.example.ui_kit.theme.JetpackNoteTakingTheme
 import com.example.navigation.AppComposeNavigator
 
 @Composable

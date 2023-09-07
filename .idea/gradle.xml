@@ -12,7 +12,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/create-note" />
             <option value="$PROJECT_DIR$/navigation" />
+            <option value="$PROJECT_DIR$/ui-kit" />
           </set>
         </option>
       </GradleProjectSettings>

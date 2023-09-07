@@ -44,13 +44,13 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.jetpacknotetaking.R
 import com.example.jetpacknotetaking.data.entity.Note
-import com.example.jetpacknotetaking.ui.theme.Color25
-import com.example.jetpacknotetaking.ui.theme.Pink40
-import com.example.jetpacknotetaking.ui.theme.Pink80
-import com.example.jetpacknotetaking.ui.theme.Purple
-import com.example.jetpacknotetaking.ui.theme.RusticRed
 import com.example.navigation.AppComposeNavigator
 import com.example.navigation.NoteScreens
+import com.example.ui_kit.theme.Color25
+import com.example.ui_kit.theme.Pink40
+import com.example.ui_kit.theme.Pink80
+import com.example.ui_kit.theme.Purple
+import com.example.ui_kit.theme.RusticRed
 
 private const val NO_ID = -1L
 

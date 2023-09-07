@@ -21,14 +21,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.jetpacknotetaking.R
 import com.example.jetpacknotetaking.screens.dialog.SaveConfirmationDialog
-import com.example.jetpacknotetaking.ui.theme.Color25
-import com.example.jetpacknotetaking.ui.theme.Color3B
-import com.example.jetpacknotetaking.ui_kit.CustomOutlinedTextField
-import com.example.jetpacknotetaking.ui_kit.RoundedIconButton
 import com.example.navigation.AppComposeNavigator
+import com.example.ui_kit.components.CustomOutlinedTextField
+import com.example.ui_kit.components.RoundedIconButton
 
 @Composable
 fun CreateNote(
@@ -38,7 +35,7 @@ fun CreateNote(
 ) {
     Column(
         modifier = Modifier
-            .background(color = Color25)
+            .background(color = com.example.ui_kit.theme.Color25)
             .fillMaxSize()
     ) {
 
@@ -63,7 +60,7 @@ fun CreateNote(
 
             val buttonModifier =
                 Modifier
-                    .background(color = Color3B, shape = RoundedCornerShape(12.dp))
+                    .background(color = com.example.ui_kit.theme.Color3B, shape = RoundedCornerShape(12.dp))
 
             if (showConfirmationDialog.value) {
                 SaveConfirmationDialog(

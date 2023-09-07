@@ -61,5 +61,3 @@ class HomeViewModel @Inject constructor(
         }
     }
 }
-
-data class HomeState(val notes: List<Note>?)

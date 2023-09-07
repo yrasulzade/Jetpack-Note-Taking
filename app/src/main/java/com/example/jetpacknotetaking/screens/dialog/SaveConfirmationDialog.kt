@@ -24,9 +24,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.example.jetpacknotetaking.R
-import com.example.jetpacknotetaking.ui.theme.Color25
-import com.example.jetpacknotetaking.ui.theme.Green
-import com.example.jetpacknotetaking.ui_kit.RoundedButton
+import com.example.ui_kit.components.RoundedButton
+import com.example.ui_kit.theme.Green
 
 @Composable
 fun SaveConfirmationDialog(
@@ -43,7 +42,7 @@ fun SaveConfirmationDialog(
             Column(
                 Modifier
                     .fillMaxWidth()
-                    .background(Color25)
+                    .background(com.example.ui_kit.theme.Color25)
                     .padding(start = 8.dp)
             ) {
                 Image(

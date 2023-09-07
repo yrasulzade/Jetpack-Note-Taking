@@ -1,4 +1,4 @@
-package com.example.jetpacknotetaking.ui.theme
+package com.example.ui_kit.theme
 
 import androidx.compose.ui.graphics.Color
 

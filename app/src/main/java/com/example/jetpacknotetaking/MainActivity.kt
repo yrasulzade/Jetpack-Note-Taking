@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpacknotetaking.navigation.NoteMain
-import com.example.jetpacknotetaking.ui.theme.JetpackNoteTakingTheme
 import com.example.navigation.AppComposeNavigator
+import com.example.ui_kit.theme.JetpackNoteTakingTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

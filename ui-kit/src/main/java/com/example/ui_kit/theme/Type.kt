@@ -1,4 +1,4 @@
-package com.example.jetpacknotetaking.ui.theme
+package com.example.ui_kit.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
